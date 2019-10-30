@@ -1,0 +1,66 @@
+Odor delivery strobes marking the start of delivery for odors 0-15 are just strobes 000-0015
+
+the other ones we use are defined below.  
+
+Notes:  1.  Whenever it says "water" it means the fluid well.  
+2.  The FLUID_L AND FLUID_R strobes are delivered only at the first drop of fluid delivery on the trial.  
+	Multiple drops of fluid delivery are marked by "DELIVER_Fluid A" or "DELIVER_Fluid B".
+3.  The LAZY_RAT strobe refers to an instance of light on in which the rat did not begin a trial by nose-poking.
+
+
+#define BF_START_SESSION      	    221
+#define BF_LIGHTS_ON      	    222
+#define BF_LAZY_RAT        	    223
+#define BF_ODOR_POKE		    224
+#define BF_ODOR_UNPOKE_EARLY        225
+#define BF_ODOR_UNPOKE		    226
+#define BF_WATER_POKE		    227
+#define BF_WATER_UNPOKE_EARLY       228
+#define BF_DELIVER_Fluid A          229
+#define BF_DELIVER_Fluid B   	    230
+#define BF_LICKING                  231
+#define BF_WATER_UNPOKE		    232
+#define BF_LIGHTS_OFF               233
+#define BF_INVALID_TRIAL            234
+#define BF_LATENCY_CRIT_UNMET	    235
+#define BF_LATENCY_CRIT_MET 	    236
+#define BF_LONG_LATENCY		    237
+#define BF_BEHAVIORAL_CRIT_UNMET    238
+#define BF_BEHAVIORAL_CRIT_MET      239
+#define BF_REVERSAL_CRIT_UNMET      240
+#define BF_REVERSAL_CRIT_MET        241
+#define BF_END_CORRECT_ITI          242
+#define BF_END_INCORRECT_ITI        243
+#define BF_PAUSE_SESSION            244
+#define BF_RESUME_SESSION           245
+#define BF_END_SESSION        	    246
+  
+
+#define BF_ODOR_OFF		    247
+#define BF_WATER_POKE_L		    248
+#define BF_WATER_POKE_R		    249
+#define BF_WATER_UNPOKE_EARLY_L	    250
+#define BF_WATER_UNPOKE_EARLY_R     251
+#define BF_FLUID_L		    252
+#define BF_FLUID_R		    253
+#define BF_WATER_UNPOKE_L	    254
+#define BF_WATER_UNPOKE_R	    255
+
+#define BF_WATER_POKE_NONE	    256
+#define BF_WATER_POKE_ERROR_L	    257
+#define BF_WATER_POKE_ERROR_R	    258
+#define BF_CHOICE_FLAG		    280-290	CH00-CH10
+
+
+#define BF_BIG_BOLUS_L		    291
+#define BF_BIG_BOLUS_R	  	    292
+#define BF_EQUAL_BOLUS		    293
+#define BF_LONG_DELAY_L		    294
+#define BF_LONG_DELAY_R		    295
+#define BF_EQUAL_DELAY		    296
+#define BF_MORE_WORK_L		    297
+#define BF_MORE_WORK_R		    298
+#define BF_EQUAL_WORK               299
+#define BF_TITRATE_YES		    300
+#define BF_TITRATE_NO		    301
+
