@@ -1,5 +1,7 @@
 The data in dopamine_ensemble_analysis is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. 
 
+The text of said license is pasted below.
+
 ## ODC Open Database License (ODbL)
 
 ### Preamble
